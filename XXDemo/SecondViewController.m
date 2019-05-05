@@ -35,8 +35,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     //    [self play];
-        [self loadSVG];
-//    [self loadLayer];
+//        [self loadSVG];
+    [self loadLayer];
 }
 
 - (void) loadLayer {
@@ -47,20 +47,33 @@
     
     CALayer *commonLayer =  [CALayer layer];
     commonLayer.backgroundColor=[UIColor blueColor].CGColor;
-    commonLayer.bounds=CGRectMake(0, 0, 80, 120);
+    commonLayer.frame=CGRectMake(0, 0, 80, 120);
     [tmpView.layer insertSublayer:commonLayer atIndex:0];
     
     CALayer *commonLayer00 =  [CALayer layer];
     commonLayer00.backgroundColor=[UIColor orangeColor].CGColor;
+    commonLayer00.frame=CGRectMake(-40, -60, 80, 120);
     commonLayer00.anchorPoint=CGPointMake(0, 0);
-    commonLayer00.bounds=CGRectMake(0, 0, 80, 120);
+    
     [tmpView.layer insertSublayer:commonLayer00 atIndex:0];
     
     CALayer *commonLayer01 =  [CALayer layer];
     commonLayer01.backgroundColor=[UIColor purpleColor].CGColor;
+    //先设置frame 再设置锚点anchorPoint 会影响最终显示位置position的值
+    commonLayer01.frame=CGRectMake(40, 60, 80, 120);
     commonLayer01.anchorPoint=CGPointMake(1, 1);
-    commonLayer01.bounds=CGRectMake(0, 0, 80, 120);
+//    frame.origin.x = position.x - anchorPoint.x * bounds.size.width；
+//    frame.origin.y = position.y - anchorPoint.y * bounds.size.height；
+    //先设置锚点anchorPoint 再设置frame 不会影响最终显示位置position的值，但会影响旋转时的固定点
+    commonLayer01.frame=CGRectMake(40, 60, 80, 120);
+    
     [tmpView.layer insertSublayer:commonLayer01 atIndex:0];
+    
+    /*
+     更容易的理解：相对论：
+     还是以桌子与白纸为例，如果固定图钉在桌上的位置，也就是positon不变，这个时候图钉处在白纸的不同地方就是不同的anchorPoint，相应地也就是不同的frame。
+     另一方面，如果固定图钉在白纸上的位置（没订在桌子上），不管怎么平移白纸，anchorPoint肯定是不变的，但frame肯定是随之变化的
+     */
 }
 
 - (void)loadSVG {
