@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>demo</title>
+    <script>
+        function myFunction()
+        {
+            document.getElementById("demo").innerHTML="My First JavaScript Function";
+        }
+        // OC执行JS通知WKWebView, 此处的saveCb是与OC约定的方法名字
+        function saveCb(cbText) {
+            console.log(cbText);
+            document.getElementById("saveResult").innerHTML=cbText;
+        }
+    
+        function save() {
+            // 复杂数据
+            var list = [1,2,3];
+            var dict = {"name":"上sdfsdfsd售的君", "data":"645564", "list":list};
+            console.log(dict);
+            // JS通知WKWebView, 此处的save是与OC约定的方法名字
+            window.webkit.messageHandlers.save.postMessage(dict);
+        }
+    
+        function alertNow()
+        {
+            alert("My First JavaScript Function");
+        }
+    </script>
+</head>
+<body>
+
+<div>
+<button onclick="alertNow()">Save Text</button>
+<input type="button" name="button" class="btn_grey" value="发表" onclick="save()"/>
+</div>
+
+<div id="saveResult"> unknown </div>
+	
+</body>
+</html>

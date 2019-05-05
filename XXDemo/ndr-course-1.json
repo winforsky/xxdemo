@@ -1,0 +1,46 @@
+{
+		"creator": "2135837970",
+		"update_time": "2019-03-22T16:22:31.395+0800",
+		"create_time": "2019-03-22T16:22:27.943+0800",
+		"ti_items": [{
+			"ti_res_version": 1,
+			"ti_is_source_file": true,
+			"ti_file_flag": "historyRecord",
+			"lc_ti_format": "record/json",
+			"ti_storage": "cs_dentry_id:1b7733f0-95b5-4513-b8b0-a98ee36a3286",
+			"ti_printable": false,
+			"ti_size": 275,
+			"ti_format": "8bb4d3f5-95a7-4b1f-9614-a907f0e17dee"
+		}, {
+			"ti_res_version": 1,
+			"ti_is_source_file": true,
+			"ti_file_flag": "img",
+			"lc_ti_format": "image/png",
+			"ti_storage": "cs_dentry_id:7764e257-7fd3-4d28-aec7-29abc8eca096",
+			"ti_printable": false,
+			"ti_size": 392607,
+			"ti_format": "01434c88-c2d1-4740-89f2-80859466cf3a"
+		}, {
+			"ti_res_version": 1,
+			"ti_is_source_file": true,
+			"ti_file_flag": "projectRecord",
+			"lc_ti_format": "record/json",
+			"ti_storage": "cs_dentry_id:0086412b-dde1-41f6-bdad-80340f52961d",
+			"ti_printable": false,
+			"ti_size": 91018,
+			"ti_format": "8bb4d3f5-95a7-4b1f-9614-a907f0e17dee"
+		}],
+		"resource_type_code": "paintingworks",
+		"has_right": false,
+		"language": "zh-CN",
+		"custom_properties": {
+			"courseId": "123",
+			"isCompleted": false
+		},
+		"id": "ba4165ad-fa32-449d-8de1-016f125ec276",
+		"_id": "159_00000000-0000-0000-0000-000000000159_ba4165ad-fa32-449d-8de1-016f125ec276",
+		"container_id": "00000000-0000-0000-0000-000000000159",
+		"global_title": {
+			"zh-CN": "The"
+		}
+	}

@@ -1,0 +1,91 @@
+{
+    "creator": "914776",
+    "update_time": "2019-03-22T14:39:40.814+0800",
+    "create_time": "2019-03-22T14:39:40.814+0800",
+    "ti_items": [
+        {
+            "ti_res_version": 1,
+            "ti_is_source_file": true,
+            "ti_file_flag": "this.props.fieldName1553236792928",
+            "lc_ti_format": "text/html",
+            "ti_storage": "cs_dentry_id:https://betacs.101.com/v0.1/download?dentryId=07a144bc-0173-4586-bd2f-e25f6b594b81",
+            "ti_printable": false,
+            "ti_size": 721840,
+            "ti_format": "574c7bed-98c7-42e1-8f9f-a61befb8f2c2"
+        },
+        {
+            "ti_res_version": 1,
+            "ti_is_source_file": true,
+            "ti_file_flag": "this.props.fieldName1553236796223",
+            "lc_ti_format": "application/json",
+            "ti_storage": "cs_dentry_id:https://betacs.101.com/v0.1/download?dentryId=fc51daf7-e59e-42da-badc-d7c64adc3aaa",
+            "ti_printable": false,
+            "ti_size": 478640,
+            "ti_format": "f5e5b165-6eff-4f2d-9da7-16a32fed1a35"
+        },
+        {
+            "ti_res_version": 1,
+            "ti_is_source_file": true,
+            "ti_file_flag": "this.props.fieldName1553236933264",
+            "lc_ti_format": "application/octet-stream",
+            "ti_storage": "cs_dentry_id:https://betacs.101.com/v0.1/download?dentryId=29b2d23a-03b3-4910-9152-acfdc80b97a5",
+            "ti_printable": false,
+            "ti_size": 1313,
+            "ti_format": "87a3928d-154f-4978-b96b-38894809fea8"
+        },
+        {
+            "ti_res_version": 1,
+            "ti_is_source_file": true,
+            "ti_file_flag": "this.props.fieldName1553236953312",
+            "lc_ti_format": "text/html",
+            "ti_storage": "cs_dentry_id:https://betacs.101.com/v0.1/download?dentryId=2fa17012-8185-4769-820b-dd614300137a",
+            "ti_printable": false,
+            "ti_size": 254281,
+            "ti_format": "574c7bed-98c7-42e1-8f9f-a61befb8f2c2"
+        },
+        {
+            "ti_res_version": 1,
+            "ti_is_source_file": true,
+            "ti_file_flag": "this.props.fieldName1553236956674",
+            "lc_ti_format": "application/json",
+            "ti_storage": "cs_dentry_id:https://betacs.101.com/v0.1/download?dentryId=98fdd833-2b02-4f06-b807-fbd6c948192b",
+            "ti_printable": false,
+            "ti_size": 11081,
+            "ti_format": "f5e5b165-6eff-4f2d-9da7-16a32fed1a35"
+        },
+        {
+            "ti_res_version": 1,
+            "ti_is_source_file": true,
+            "ti_file_flag": "this.props.fieldName1553236960107",
+            "lc_ti_format": "application/octet-stream",
+            "ti_storage": "cs_dentry_id:https://betacs.101.com/v0.1/download?dentryId=4ab25474-c03b-49f4-8fa0-46e8ca2b7b30",
+            "ti_printable": false,
+            "ti_size": 956,
+            "ti_format": "87a3928d-154f-4978-b96b-38894809fea8"
+        },
+        {
+            "ti_res_version": 1,
+            "ti_is_source_file": true,
+            "ti_file_flag": "this.props.fieldName1553236965043",
+            "lc_ti_format": "audio/mpeg",
+            "ti_storage": "cs_dentry_id:https://betacs.101.com/v0.1/download?dentryId=7a3b7fc9-e62b-4631-b9e5-1f74f63110a9",
+            "ti_printable": false,
+            "ti_size": 628073,
+            "ti_format": "b9a29c9a-0652-4564-8b0d-ba13a9e1143c"
+        }
+    ],
+    "resource_type_code": "paintingcourse",
+    "has_right": false,
+    "language": "zh-CN",
+    "custom_properties": {
+        "difficulty": 1,
+        "steps": "[{\"title\":\"概括\",\"name\":\"21212124\",\"anim_h\":{\"name\":\"demo.html\",\"url\":\"https://betacs.101.com/v0.1/download?dentryId=07a144bc-0173-4586-bd2f-e25f6b594b81\"},\"anim_j\":{\"name\":\"03 画右侧楼群.json\",\"url\":\"https://betacs.101.com/v0.1/download?dentryId=fc51daf7-e59e-42da-badc-d7c64adc3aaa\"},\"subtitle\":{\"name\":\"03 画右侧楼群.srt\",\"url\":\"https://betacs.101.com/v0.1/download?dentryId=29b2d23a-03b3-4910-9152-acfdc80b97a5\"}},{\"name\":\"步骤1\",\"anim_h\":{\"name\":\"demo.html\",\"url\":\"https://betacs.101.com/v0.1/download?dentryId=2fa17012-8185-4769-820b-dd614300137a\"},\"anim_j\":{\"name\":\"01 画骨骼辅助线.json\",\"url\":\"https://betacs.101.com/v0.1/download?dentryId=98fdd833-2b02-4f06-b807-fbd6c948192b\"},\"subtitle\":{\"name\":\"01 画骨骼辅助线.srt\",\"url\":\"https://betacs.101.com/v0.1/download?dentryId=4ab25474-c03b-49f4-8fa0-46e8ca2b7b30\"},\"audio\":{\"name\":\"01 画骨骼辅助线.mp3\",\"url\":\"https://betacs.101.com/v0.1/download?dentryId=7a3b7fc9-e62b-4631-b9e5-1f74f63110a9\"}}]",
+        "thumbImgName": "21212124"
+    },
+    "id": "d5983af0-7608-402a-a9d5-45d6da30816d",
+    "_id": "159_00000000-0000-0000-0000-000000000159_d5983af0-7608-402a-a9d5-45d6da30816d",
+    "container_id": "00000000-0000-0000-0000-000000000159",
+    "global_title": {
+        "zh-CN": "21212124"
+    }
+}

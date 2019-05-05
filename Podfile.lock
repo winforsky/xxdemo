@@ -1,0 +1,46 @@
+PODS:
+  - CocoaLumberjack (2.0.3):
+    - CocoaLumberjack/Default (= 2.0.3)
+    - CocoaLumberjack/Extensions (= 2.0.3)
+  - CocoaLumberjack/Core (2.0.3)
+  - CocoaLumberjack/Default (2.0.3):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.3):
+    - CocoaLumberjack/Default
+  - JAMSVGImage (1.6.1)
+  - lottie-ios (2.5.3)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
+  - Masonry (1.1.0)
+  - SVGKit (2.0.0):
+    - CocoaLumberjack (~> 2.x)
+
+DEPENDENCIES:
+  - CocoaLumberjack (= 2.0.3)
+  - JAMSVGImage (~> 1.6.1)
+  - lottie-ios (~> 2.5.2)
+  - Mantle (~> 2.1.0)
+  - Masonry (~> 1.1.0)
+  - SVGKit (= 2.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaLumberjack
+    - JAMSVGImage
+    - lottie-ios
+    - Mantle
+    - Masonry
+    - SVGKit
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: f58d8a19629f4d8379ae14bb3534def24161430e
+  JAMSVGImage: 7aa966a310ddf5f53de295d5ce5b930df8ff1eb2
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SVGKit: dd6047cbbdeb1bf543b82540292431565a41abde
+
+PODFILE CHECKSUM: 059cf24888b6a93efdd00ba87027904f5bbcfc30
+
+COCOAPODS: 1.5.3

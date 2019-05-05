@@ -1,0 +1,52 @@
+[
+    {
+        "label_name": "1级标签1",
+        "parent_id": "81a3b852",
+        "label_id": "81a3b852",
+        "children": [
+            {
+                "label_name": "1级标签1-2",
+                "parent_id": "81a3b852",
+                "label_id": "81a3b852-2",
+                "children": [
+                    {
+                        "label_name": "1级标签1-2-1",
+                        "parent_id": "81a3b852-2",
+                        "label_id": "81a3b852-2-1"
+                    }
+                ]
+            },
+            {
+                "label_name": "1级标签1-233",
+                "parent_id": "81a3b852",
+                "label_id": "81a3b852-233",
+                "children": [
+                    {
+                        "label_name": "1级标签1-233-1",
+                        "parent_id": "81a3b852-233",
+                        "label_id": "81a3b852-233-1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label_name": "1级标签2",
+        "parent_id": "81a3b8522",
+        "label_id": "81a3b8522",
+        "children": [
+            {
+                "label_name": "1级标签22-2",
+                "parent_id": "81a3b8522",
+                "label_id": "81a3b8522-2",
+                "children": [
+                    {
+                        "label_name": "1级标签22-2-1",
+                        "parent_id": "81a3b8522-2",
+                        "label_id": "81a3b8522-2-1"
+                    }
+                ]
+            }
+        ]
+    }
+]
